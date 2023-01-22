@@ -1,0 +1,74 @@
+.todo-items-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    border-radius: 16px;
+    background-image: linear-gradient(160deg, #8ceabb 0%, #378f7b 100%);
+}
+
+.todo-task-group {
+    display: flex;
+    align-items: center;
+}
+
+.item-checkmark {
+    content: '';
+    position: absolute;
+    display: grid;
+    place-items: center;
+}
+
+.item-label {
+    position: relative;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.item-button {
+    max-width: fit-content;
+    display: flex;
+    place-items: center;
+    padding: 4px;
+}
+
+.delete-button {
+    max-width: fit-content;
+    display: flex;
+    place-items: center;
+    padding: 4px;
+}
+
+.item-buttons {
+    cursor: pointer;
+}
+
+.edit-button {
+    font-size: 16px;
+}
+
+.edit-button:hover {
+    background-color: #f5a98e;
+    border-radius: 30px;
+}
+
+.delete-button {
+    font-size: 25px;
+}
+
+.delete-button:hover {
+    border-radius: 16px;
+    background-color: red;
+}
+
+.input-checkbox {
+    flex-shrink: 0;
+    appearance: none;
+}
+
+
+.input-checkbox:checked+label {
+    text-decoration: line-through;
+}
+
