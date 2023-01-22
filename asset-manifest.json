@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/to-do-uam/static/css/main.0d5c9e81.css",
+    "main.js": "/to-do-uam/static/js/main.15527fad.js",
+    "static/js/787.5e141d9e.chunk.js": "/to-do-uam/static/js/787.5e141d9e.chunk.js",
+    "index.html": "/to-do-uam/index.html",
+    "main.0d5c9e81.css.map": "/to-do-uam/static/css/main.0d5c9e81.css.map",
+    "main.15527fad.js.map": "/to-do-uam/static/js/main.15527fad.js.map",
+    "787.5e141d9e.chunk.js.map": "/to-do-uam/static/js/787.5e141d9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d5c9e81.css",
+    "static/js/main.15527fad.js"
+  ]
+}
